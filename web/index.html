@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Hotjar Tracking Code for https://refuge-gatien1.c9users.io:8080/#accueil -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 448857,
+                hjsv: 5
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pas Si Bêtes - Refuge</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/locale/fr.js"></script>
+    <script type="text/javascript" src="/js/socket.io.min.js"></script>
+    <script type="text/javascript" src="/js/webcomponents.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link template="navbar" container="navbar-view" rel="import" href="/views/navbar.html">
+    <link template="navbar-extended" container="navbar-view" rel="import" href="/views/navbar-extended.html">
+    <link template="footer" container="footer-view" rel="import" href="/views/footer.html">
+
+    <link template="accueil" container="main-view" navbar="navbar" rel="import" href="/views/acceuil.html">
+    <link template="chat" container="main-view" navbar="navbar" rel="import" href="/views/chat.html">
+    <link template="chien" container="main-view" navbar="navbar" rel="import" href="/views/chien.html">
+    <link template="info" container="main-view" navbar="navbar" rel="import" href="/views/info.html">
+    <link template="not-found" container="main-view" navbar="navbar" rel="import" href="/views/not-found.html">
+</head>
+
+<body>
+    <header id="navbar-view"></header>
+
+    <main id="main-view"></main>
+
+    <footer id="footer-view"></footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/view-manager.js"></script>
+
+    <script type="text/javascript">
+        window.addEventListener('WebComponentsReady', function(e) {
+            viewManager.init();
+        });
+    </script>
+</body>
+
+</html>

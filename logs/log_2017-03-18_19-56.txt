@@ -1,0 +1,31 @@
+=== Création du fichier log le samedi 6 mars 2017 à 19:56:46 ===
+[2017-03-18 19:56:46] Server up at 172.17.0.97:8080
+[2017-03-18 22:15:45] X | Receving a new connection
+[2017-03-18 22:15:45] X | Sending a new client ID : 0
+[2017-03-18 22:15:46] X | Receving client request for accueil page
+[2017-03-18 22:15:46] X | Receving client request for accueil page
+[2017-03-18 22:15:46] 0 | User connected with ID
+[2017-03-18 22:18:33] X | Receving a new connection
+[2017-03-18 22:18:33] X | Sending a new client ID : 1
+[2017-03-18 22:18:34] 1 | User connected with ID
+[2017-03-18 22:18:39] X | User disconnected
+[2017-03-18 22:19:15] X | User disconnected
+[2017-03-18 22:19:16] X | Receving a new connection
+[2017-03-18 22:19:16] X | Sending a new client ID : 2
+[2017-03-18 22:19:16] X | Receving client request for accueil page
+[2017-03-18 22:19:16] 2 | User connected with ID
+[2017-03-18 22:19:25] 2 | Receving client request for dog page
+[2017-03-18 22:19:25] 2 | Checking the state of DataBase...
+[2017-03-18 22:19:25] 2 | Receving Dog DataBase
+[2017-03-18 22:19:25] 2 | Sending Dog DataBase to client
+[2017-03-18 22:19:25] 2 | Sending successful
+[2017-03-18 22:19:25] 2 | Receving client request for cat page
+[2017-03-18 22:19:25] 2 | Checking the state of DataBase...
+[2017-03-18 22:19:25] 2 | Receving Cat DataBase
+[2017-03-18 22:19:25] 2 | Sending Cat DataBase to client
+[2017-03-18 22:19:25] 2 | Sending successful
+[2017-03-18 22:19:26] 2 | Receving client request for accueil page
+[2017-03-18 23:31:08] X | User disconnected
+[2017-03-19 00:00:04] X | Receving a new connection
+[2017-03-19 00:00:04] X | Sending a new client ID : 3
+[2017-03-19 00:00:04] 3 | User connected with ID

@@ -1,0 +1,185 @@
+.card-content p b i {
+    margin-left: 5px;
+}
+
+#card-div-cat {
+    left: 0;
+    right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#card-div-cat .card {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#card-div-dog {
+    left: 0;
+    right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#card-previsu .card {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#cat-modal #card-previsu .card {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#btn-add-dog-previsu {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#btn-add-cat-previsu {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#btn-add-dog-submit {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#btn-add-cat-submit {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#modals .card {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#cards .card .card-content {
+    padding-bottom: 11px;
+}
+
+#console-tab div span {
+    margin-right: 10px;
+}
+
+#console {
+    margin-top: 20px;
+    height: 550px;
+    padding: 25px;
+    overflow-y: auto;
+}
+
+#console span {
+    font-weight: bold;
+    color: white;
+    font-family: Courier, monospace;
+}
+
+#console span .inverse{
+    background-color: white;
+    color: black !important;
+    margin-right: 0px;
+}
+
+#console span .bgBlue{
+    background-color: blue;
+    margin-right: 0px;
+}
+
+#console span .bgGreen{
+    background-color: green;
+    margin-right: 0px;
+}
+
+#console span .bgRed{
+    background-color: red;
+    margin-right: 0px;
+}
+
+#console span .green{
+    color: green !important;
+    background-color: transparent !important;
+}
+
+#console span .yellow{
+    color: yellow !important;
+    background-color: transparent !important;
+}
+
+#console span .cyan{
+    color: #00FFFF !important;
+    background-color: transparent !important;
+}
+
+#console span .magenta{
+    color: #FF00FF !important;
+    background-color: transparent !important;
+}
+
+#console span .red{
+    color: red !important;
+    background-color: transparent !important;
+}
+
+main .container .tabs {
+    margin-top: 5px;
+}
+
+#add {
+    margin-top: 40px;
+}
+
+#edit {
+    margin-top: 40px;
+}
+
+#cat-ligne4 a {
+    margin-right: 5px;
+}
+
+#filebtn {
+    margin-left: 20px;
+}
+
+#grumycat404 {
+    height: 45px;
+    width: 45px;
+}
+
+#body-div {
+    margin-top: 48px;
+}
+
+.brand-logo {
+    margin-left: 25px;
+}
+
+.brand-logo img {
+    height: 56px;
+    margin-top: 4px;
+}
+
+.footer-table {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#footer-mail {
+    color: white;
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+/*$primary-color: color("materialize-red", "lighten-2") !default;*/

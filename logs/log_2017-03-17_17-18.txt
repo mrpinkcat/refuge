@@ -1,0 +1,18 @@
+=== Création du fichier log le vendredi 5 mars 2017 à 17:18:39 ===
+[2017-03-17 17:18:39] Server up at 172.17.0.130:8080
+[2017-03-17 17:18:42] X | Receving a new connection
+[2017-03-17 17:18:42] X | Sending a new client ID : 0
+[2017-03-17 17:18:42] X | Receving client request for accueil page
+[2017-03-17 17:18:42] X | Receving client request for accueil page
+[2017-03-17 17:18:42] 0 | User connected with ID
+[2017-03-17 17:18:55] X | User disconnected
+[2017-03-17 17:18:55] PANEL | X | Admin connected to panel
+[2017-03-17 17:18:55] PANEL | X | Checking the state of cat DataBase...
+[2017-03-17 17:18:55] PANEL | X | Receving cat DataBase
+[2017-03-17 17:18:55] PANEL | X | Sending cat DataBase to client
+[2017-03-17 17:18:55] PANEL | X | Checking the state of dog DataBase...
+[2017-03-17 17:18:55] PANEL | X | Receving dog DataBase
+[2017-03-17 17:18:55] PANEL | X | Sending dog DataBase to client
+[2017-03-17 17:18:55] PANEL | X | Geting UID...
+[2017-03-17 17:18:55] PANEL | X | Sending UID...
+[2017-03-17 17:18:55] PANEL | X | All sending steps are successful

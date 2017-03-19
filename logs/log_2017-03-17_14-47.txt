@@ -1,0 +1,151 @@
+=== Création du fichier log le vendredi 5 mars 2017 à 14:47:39 ===
+[2017-03-17 14:47:39] Server up at 172.17.0.130:8080
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Admin connected to panel
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Checking the state of cat DataBase...
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Receving cat DataBase
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Sending cat DataBase to client
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Checking the state of dog DataBase...
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Receving dog DataBase
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Sending dog DataBase to client
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Geting UID...
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | Sending UID...
+[2017-03-17 14:47:41] PANEL | 195.221.251.187 | All sending steps are successful
+[2017-03-17 14:47:58] PANEL | X | Receving new cat
+[2017-03-17 14:47:58] PANEL | X | Pushing cat info's on DataBase...
+[2017-03-17 14:47:58] PANEL | X | Pushing successful for the cat: CHATON N°250268501104915
+[2017-03-17 14:47:58] PANEL | X | Sending CHATON successful
+[2017-03-17 14:47:58] PANEL | X | Sending CHATON to connected admins
+[2017-03-17 14:47:58] PANEL | X | Sending CHATON to connected users
+[2017-03-17 14:47:58] PANEL | X | Sending CHATON successful
+[2017-03-17 14:47:58] PANEL | X | Pushing CHATON on DataBase successful
+[2017-03-17 14:48:13] PANEL | X | Admin connected to panel
+[2017-03-17 14:48:13] PANEL | X | Checking the state of cat DataBase...
+[2017-03-17 14:48:13] PANEL | X | Receving cat DataBase
+[2017-03-17 14:48:13] PANEL | X | Sending cat DataBase to client
+[2017-03-17 14:48:13] PANEL | X | Checking the state of dog DataBase...
+[2017-03-17 14:48:13] PANEL | X | Receving dog DataBase
+[2017-03-17 14:48:13] PANEL | X | Sending dog DataBase to client
+[2017-03-17 14:48:13] PANEL | X | Geting UID...
+[2017-03-17 14:48:13] PANEL | X | Sending UID...
+[2017-03-17 14:48:13] PANEL | X | All sending steps are successful
+[2017-03-17 14:49:05] X | User disconnected
+[2017-03-17 14:49:31] X | User disconnected
+[2017-03-17 14:50:52] PANEL | X | Admin connected to panel
+[2017-03-17 14:50:52] PANEL | X | Sending cat DataBase to client
+[2017-03-17 14:50:52] PANEL | X | Checking the state of dog DataBase...
+[2017-03-17 14:50:52] PANEL | X | Receving dog DataBase
+[2017-03-17 14:50:52] PANEL | X | Checking the state of cat DataBase...
+[2017-03-17 14:50:52] PANEL | X | Sending dog DataBase to client
+[2017-03-17 14:50:52] PANEL | X | Geting UID...
+[2017-03-17 14:50:52] PANEL | X | Sending UID...
+[2017-03-17 14:50:52] PANEL | X | All sending steps are successful
+[2017-03-17 14:50:52] PANEL | X | Receving cat DataBase
+[2017-03-17 14:51:19] X | Receving a new connection
+[2017-03-17 14:51:19] X | Sending a new client ID : 0
+[2017-03-17 14:51:19] X | Receving client request for accueil page
+[2017-03-17 14:51:19] X | Receving client request for accueil page
+[2017-03-17 14:51:19] 0 | User connected with ID
+[2017-03-17 14:51:19] 0 | Receving client request for cat page
+[2017-03-17 14:51:19] 0 | Checking the state of DataBase...
+[2017-03-17 14:51:19] 0 | Receving Cat DataBase
+[2017-03-17 14:51:19] 0 | Sending Cat DataBase to client
+[2017-03-17 14:51:19] 0 | Sending successful
+[2017-03-17 14:51:27] X | Receving a new connection
+[2017-03-17 14:51:27] X | Sending a new client ID : 1
+[2017-03-17 14:51:27] X | Checking the state of DataBase...
+[2017-03-17 14:51:27] X | Receving client request for cat page
+[2017-03-17 14:51:27] X | Receving Cat DataBase
+[2017-03-17 14:51:27] X | Sending Cat DataBase to client
+[2017-03-17 14:51:27] X | Sending successful
+[2017-03-17 14:51:27] 1 | User connected with ID
+[2017-03-17 14:52:14] X | User disconnected
+[2017-03-17 14:52:18] X | User disconnected
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Admin connected to panel
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Checking the state of cat DataBase...
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Receving cat DataBase
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Sending cat DataBase to client
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Checking the state of dog DataBase...
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Receving dog DataBase
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Sending dog DataBase to client
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Geting UID...
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | Sending UID...
+[2017-03-17 14:52:21] PANEL | 195.221.251.187 | All sending steps are successful
+[2017-03-17 14:52:45] X | User disconnected
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Admin connected to panel
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Checking the state of dog DataBase...
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Receving dog DataBase
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Sending dog DataBase to client
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Geting UID...
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Sending UID...
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | All sending steps are successful
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Checking the state of cat DataBase...
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Receving cat DataBase
+[2017-03-17 15:02:12] PANEL | 195.221.251.187 | Sending cat DataBase to client
+[2017-03-17 15:02:47] PANEL | X | Receving new cat
+[2017-03-17 15:02:47] PANEL | X | Pushing cat info's on DataBase...
+[2017-03-17 15:02:47] PANEL | X | Pushing successful for the cat: CHATON N°250268501104915
+[2017-03-17 15:02:47] PANEL | X | Sending CHATON to connected admins
+[2017-03-17 15:02:47] PANEL | X | Sending CHATON successful
+[2017-03-17 15:02:47] PANEL | X | Sending CHATON to connected users
+[2017-03-17 15:02:47] PANEL | X | Pushing CHATON on DataBase successful
+[2017-03-17 15:02:47] PANEL | X | Sending CHATON successful
+[2017-03-17 15:03:18] X | User disconnected
+[2017-03-17 15:04:09] PANEL | X | Admin connected to panel
+[2017-03-17 15:04:09] PANEL | X | Checking the state of cat DataBase...
+[2017-03-17 15:04:09] PANEL | X | Receving cat DataBase
+[2017-03-17 15:04:09] PANEL | X | Sending cat DataBase to client
+[2017-03-17 15:04:09] PANEL | X | Checking the state of dog DataBase...
+[2017-03-17 15:04:09] PANEL | X | Receving dog DataBase
+[2017-03-17 15:04:09] PANEL | X | Sending dog DataBase to client
+[2017-03-17 15:04:09] PANEL | X | Geting UID...
+[2017-03-17 15:04:09] PANEL | X | Sending UID...
+[2017-03-17 15:04:09] PANEL | X | All sending steps are successful
+[2017-03-17 15:04:25] X | tets true,0
+[2017-03-17 15:04:26] PANEL | X | Upload Starting
+[2017-03-17 15:04:26] PANEL | X | Upload complete
+[2017-03-17 15:05:15] X | User disconnected
+[2017-03-17 15:05:32] X | Receving a new connection
+[2017-03-17 15:05:32] X | Sending a new client ID : 2
+[2017-03-17 15:05:33] 2 | User connected with ID
+[2017-03-17 15:05:40] X | User disconnected
+[2017-03-17 15:05:50] X | User disconnected
+[2017-03-17 15:06:02] PANEL | X | Admin connected to panel
+[2017-03-17 15:06:02] PANEL | X | Checking the state of cat DataBase...
+[2017-03-17 15:06:02] PANEL | X | Receving cat DataBase
+[2017-03-17 15:06:02] PANEL | X | Sending cat DataBase to client
+[2017-03-17 15:06:02] PANEL | X | Checking the state of dog DataBase...
+[2017-03-17 15:06:02] PANEL | X | Receving dog DataBase
+[2017-03-17 15:06:02] PANEL | X | Sending dog DataBase to client
+[2017-03-17 15:06:02] PANEL | X | Geting UID...
+[2017-03-17 15:06:02] PANEL | X | Sending UID...
+[2017-03-17 15:06:02] PANEL | X | All sending steps are successful
+[2017-03-17 15:06:28] X | tets true,0
+[2017-03-17 15:06:28] PANEL | X | Upload Starting
+[2017-03-17 15:06:35] PANEL | X | Upload complete
+[2017-03-17 15:06:35] X | User disconnected
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Admin connected to panel
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Checking the state of cat DataBase...
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Receving cat DataBase
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Sending cat DataBase to client
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Checking the state of dog DataBase...
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Receving dog DataBase
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Sending dog DataBase to client
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Geting UID...
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | Sending UID...
+[2017-03-17 15:07:00] PANEL | 37.161.75.177 | All sending steps are successful
+[2017-03-17 15:07:13] PANEL | X | Upload Starting
+[2017-03-17 15:07:18] PANEL | X | Upload complete
+[2017-03-17 15:07:19] X | User disconnected
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Admin connected to panel
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Receving cat DataBase
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Checking the state of cat DataBase...
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Sending cat DataBase to client
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Checking the state of dog DataBase...
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Receving dog DataBase
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Sending dog DataBase to client
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Geting UID...
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | Sending UID...
+[2017-03-17 15:07:37] PANEL | 37.161.75.177 | All sending steps are successful
+[2017-03-17 15:07:45] PANEL | X | Upload Starting
+[2017-03-17 15:07:48] PANEL | X | Upload complete
+[2017-03-17 15:07:48] X | User disconnected

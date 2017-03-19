@@ -1,0 +1,2 @@
+=== Création du fichier log le vendredi 5 mars 2017 à 18:55:50 ===
+[2017-03-17 18:55:50] Server up at 172.17.0.130:8080

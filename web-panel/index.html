@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pas Si Bêtes - ADMIN</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/locale/fr.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a class="brand-logo center">Interface d'administration</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="/">Retourner sur le site</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div id="cat-panel-modals"></div>
+
+        <div id="dog-panel-modals"></div>
+
+        <div id="previsu-modal" class="row"></div>
+
+        <div id="modal-previsu-modal"></div>
+
+        <div class="container">
+            <ul class="tabs">
+                <li class="tab col s3"><a id="tab-cat" class="active" href="#cat">Chats</a></li>
+                <li class="tab col s3"><a id="tab-dog" href="#dog">Chiens</a></li>
+                <li class="tab col s3"><a href="#console-tab">Console</a></li>
+            </ul>
+            <div id="cat" class="col s12">
+                <h3>Ajouter un chat :</h3>
+                <div id="add">
+                    <div id="cat-line1" class="valign-wrapper row">
+                        <div class="input-field col s3">
+                            <input placeholder="Filou" id="cat-name" type="text">
+                            <label for="cat-name">Nom</label>
+                        </div>
+                        <div class="input-field col s3">
+                            <input placeholder="Européen" id="cat-breed" type="text">
+                            <label for="cat-name">Race</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input placeholder="250268501104914" id="cat-number" type="text">
+                            <label for="cat-number">Numéro de tatouage</label>
+                        </div>
+                        <div class="switch center-align">
+                            <input name="cat-sex" type="radio" id="cat-male" />
+                            <label for="cat-male" class="col s1">Mâle</label>
+                        </div>
+                        <div class="switch center-align">
+                            <input name="cat-sex" type="radio" id="cat-female" />
+                            <label for="cat-female" class="col s1">Femelle</label>
+                        </div>
+                        <br>
+                    </div>
+                    <div id="cat-ligne2" class="valign-wrapper row">
+                        <div class="input-field col s12">
+                            <textarea placeholder="Un adorable petit chat doux et gentil qui a été sorti récemment de la rue." id="cat-desc" class="materialize-textarea"></textarea>
+                            <label for="cat-desc">Description</label>
+                        </div>
+                    </div>
+                    <div id="cat-ligne3" class="valign-wrapper row">
+                        <div class="input-field col s7 center-align">
+                            <form class="" method="post" enctype="multipart/form-data" action="/panel">
+                                <input id="filepathcat" type="file" name="animal-pic" /> <input type="submit" class="btn" onclick="startUploadImg();" />
+                            </form>
+                        </div>
+                        <div class="input-field col s3">
+                            <input placeholder="03/2010" id="cat-birthDate" type="text">
+                            <label for="cat-birthDate">Date de naissance</label>
+                        </div>
+                        <div class="col s2 center-align">
+                            <input type="checkbox" id="cat-adopt" />
+                            <label for="cat-adopt">Adopté(e)</label>
+                        </div>
+                    </div>
+                    <div id="cat-ligne4" class="valign-wrapper row">
+                        <!--<a id="btn-add-cat-previsu" class="waves-effect waves-light btn blue accent-3">-->
+                        <!--    <i class="material-icons right">aspect_ratio</i>Prévisualisé-->
+                        <!--</a>-->
+                        <button id="btn-add-cat-previsu" class="btn-large waves-effect waves-light blue accent-4 col s12" type="submit" name="action">Prévisualiser ce chat sur le site<i class="material-icons right">picture_in_picture</i>
+                        </button>
+                        <button id="btn-add-cat-submit" class="disabled btn-large waves-effect waves-light green accent-4 col s12" type="submit" name="action">Ajouter ce chat à la base de données<i class="material-icons right">add</i>
+                        </button>
+                    </div>
+                </div>
+                <h3>Modifier un chat :</h3>
+                <div id="edit-cat" class="row">
+                    <div class="center-align" id="progressLogo">
+                        <div class="preloader-wrapper big active">
+                            <div class="spinner-layer spinner-red-only">
+                                <div class="circle-clipper left">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="gap-patch">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="circle-clipper right">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="collection" id="cat-collection"></ul>
+                </div>
+            </div>
+
+            <!---------------------------------------------DOG---------------------------->
+
+            <div id="dog" class="col s12">
+                <h3>Ajouter un chien :</h3>
+                <div id="add">
+                    <div id="dog-line1" class="valign-wrapper row">
+                        <div class="input-field col s3">
+                            <input placeholder="Filou" id="dog-name" type="text">
+                            <label for="dog-name">Nom</label>
+                        </div>
+                        <div class="input-field col s3">
+                            <input placeholder="Européen" id="dog-breed" type="text">
+                            <label for="dog-name">Race</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input placeholder="250268501104914" id="dog-number" type="text">
+                            <label for="dog-number">Numéro de tatouage</label>
+                        </div>
+                        <div class="switch center-align">
+                            <input name="dog-sex" type="radio" id="dog-male" />
+                            <label for="dog-male" class="col s1">Mâle</label>
+                        </div>
+                        <div class="switch center-align">
+                            <input name="dog-sex" type="radio" id="dog-female" />
+                            <label for="dog-female" class="col s1">Femelle</label>
+                        </div>
+                        <br>
+                    </div>
+                    <div id="dog-ligne2" class="valign-wrapper row">
+                        <div class="input-field col s12">
+                            <textarea placeholder="Un adorable petit chat doux et gentil qui a été sorti récemment de la rue." id="dog-desc" class="materialize-textarea"></textarea>
+                            <label for="dog-desc">Description</label>
+                        </div>
+                    </div>
+                    <div id="dog-ligne3" class="valign-wrapper row">
+                        <div class="input-field col s7 center-align">
+                            <form class="" method="post" enctype="multipart/form-data" action="/panel">
+                                <input id="filepathdog" type="file" name="animal-pic" /> <input type="submit" class="btn" />
+                            </form>
+                        </div>
+                        <div class="input-field col s3">
+                            <input placeholder="03/2010" id="dog-birthDate" type="text">
+                            <label for="dog-birthDate">Date de naissance</label>
+                        </div>
+                        <div class="col s2 center-align">
+                            <input type="checkbox" id="dog-adopt" />
+                            <label for="dog-adopt">Adopté(e)</label>
+                        </div>
+                    </div>
+                    <div id="dog-ligne4" class="valign-wrapper row">
+                        <button id="btn-add-dog-previsu" class="btn-large waves-effect waves-light blue accent-4 col s12" type="submit" name="action">Prévisualiser ce chien sur le site<i class="material-icons right">picture_in_picture</i>
+                        </button>
+                        <button id="btn-add-dog-submit" class="disabled btn-large waves-effect waves-light green accent-4 col s12" type="submit" name="action">Ajouter ce chien à la base de données<i class="material-icons right">add</i>
+                        </button>
+                    </div>
+                </div>
+                <h3>Modifier un chien :</h3>
+                <div id="edit-dog" class="row">
+                    <ul class="collection" id="dog-collection"></ul>
+                </div>
+            </div>
+
+            <div id="console-tab" class="row">
+                <h4>Console du serveur :</h4>
+                <p>Cette console sert aux développeurs pour contrôler l'état général du site.</p>
+                <div>
+                    <span><input name="consoleType" type="radio" id="normal" /><label for="normal">Normal</label></span>
+                    <span><input name="consoleType" type="radio" id="debug" /><label for="debug">Débug</label></span>
+                    <a class="waves-effect waves-light btn" id="console-send"><i class="material-icons right">call_made</i>Envoyer</a>
+                </div>
+                <div id="console" class="col s12 grey darken-4">
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/panel/js/socket.io.min.js"></script>
+
+    <script src="/panel/js/main-panel.js"></script>
+</body>
+
+</html>
