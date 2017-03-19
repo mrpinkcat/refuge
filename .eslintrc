@@ -1,0 +1,15 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    
+    "globals": {
+        "$": true,
+        "jQuery": true,
+        "socket": true,
+        "io": true,
+        "moment": true,
+        "Materialize": true
+    }
+}
