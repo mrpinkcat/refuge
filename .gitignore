@@ -1,0 +1,9 @@
+# generated files
+logs/
+
+# DataBase
+refuge.json
+uploads/
+
+# Node Nodules
+node_modules/

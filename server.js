@@ -352,10 +352,6 @@ io.on('connection', function(socket) {
      *  LOADINGS
      ***/
 
-    // socket.on('loading-navbar', function() {
-    //     parseConsole('Receving client request for NAVBAR', 'receving');
-    // });
-
     socket.on('loading-accueil', function(myID) {
         parseConsole('Receving client request for accueil page', 'receving', 'normal', myID);
         socket.emit('init-pralax');
@@ -472,7 +468,7 @@ io.on('connection', function(socket) {
 
         db.push('/' + info.category + '/' + info.uid, info);
 
-        parseConsole('Pushing successful for the ' + info.category + ': ' + info.name + ' N°' + info.number, 'ok', 'debug', ip, true);
+        parseConsole('Pushing successful for the ' + info.category + ': ' + info.name + ' N°' + info.number + ' ID ' + info.uid + ' Sex ' + info.sex + ' Adopt ' + info.adopt + ' Picture ' + info.imageURL + ' BirthDate ' + info.birthDate, 'ok', 'debug', ip, true);
         parseConsole('Sending ' + info.name + ' to connected admins', 'sending', 'debug', ip, true);
 
         if (!ifModify)
@@ -486,6 +482,9 @@ io.on('connection', function(socket) {
             io.emit('showPet', info);
 
         parseConsole('Sending ' + info.name + ' successful', 'ok', 'debug', ip, true);
+        
+        io.emit('simpleToast', 'admin', info.name + ' a bien été ajouté(e) à la base de donée', 'green', 4000);
+        
         parseConsole('Pushing ' + info.name + ' on DataBase successful', 'succes', 'normal', ip, true);
     });
 
@@ -522,7 +521,9 @@ io.on('connection', function(socket) {
         socket.emit('getUserOnSite', userOnSite);
     });
 
-    socket.on('clickOnModal', function(category, uid, name, userID) {
+    socket.on('clickOnModal', function(category, uid, name, userID, id) {
+        parseConsole('Receving click on ' + name + ' modal', 'receving', 'normal', id);
+        parseConsole('Geting clickOnModal var', 'local', 'debug', id);
         var numOfClick = db.getData('/' + category + '/' + uid + '/clickOnModal');
         numOfClick++;
         db.push('/' + category + '/' + uid + '/clickOnModal', numOfClick);

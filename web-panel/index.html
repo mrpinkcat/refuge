@@ -43,8 +43,16 @@
                 <li class="tab col s3"><a id="tab-dog" href="#dog">Chiens</a></li>
                 <li class="tab col s3"><a href="#console-tab">Console</a></li>
             </ul>
+            <div class="card-panel red center-align white-text">
+                <b>Pour utiliser l'interface d'administration, le développeur RECOMMANDE FORTEMENT d'utiliser <a class="white-text" style="text-decoration: underline" href="https://www.google.fr/chrome/browser/desktop/">Google Chrome</a> !</b>
+            </div>
+            <div class="card-panel teal center-align white-text">
+                Pour ajouter un animal, remplissez tous les champs (laissez "X" pour les champs inconnus), sélectionnez une photo et appuyez sur le bouton d'envois.<br><br>
+                Une fois la photo envoyée vous pouvez vérifier que tout est correct en pré-visualisant.<br><br>
+                Puis pour ajouter l'animal il vous suffira de cliquer sur le grand bouton vert.
+            </div>
             <div id="cat" class="col s12">
-                <h3>Ajouter un chat :</h3>
+                <h4>Ajouter un chat :</h4>
                 <div id="add">
                     <div id="cat-line1" class="valign-wrapper row">
                         <div class="input-field col s3">
@@ -91,16 +99,13 @@
                         </div>
                     </div>
                     <div id="cat-ligne4" class="valign-wrapper row">
-                        <!--<a id="btn-add-cat-previsu" class="waves-effect waves-light btn blue accent-3">-->
-                        <!--    <i class="material-icons right">aspect_ratio</i>Prévisualisé-->
-                        <!--</a>-->
                         <button id="btn-add-cat-previsu" class="btn-large waves-effect waves-light blue accent-4 col s12" type="submit" name="action">Prévisualiser ce chat sur le site<i class="material-icons right">picture_in_picture</i>
                         </button>
                         <button id="btn-add-cat-submit" class="disabled btn-large waves-effect waves-light green accent-4 col s12" type="submit" name="action">Ajouter ce chat à la base de données<i class="material-icons right">add</i>
                         </button>
                     </div>
                 </div>
-                <h3>Modifier un chat :</h3>
+                <h4>Modifier un chat :</h4>
                 <div id="edit-cat" class="row">
                     <div class="center-align" id="progressLogo">
                         <div class="preloader-wrapper big active">
@@ -124,7 +129,7 @@
             <!---------------------------------------------DOG---------------------------->
 
             <div id="dog" class="col s12">
-                <h3>Ajouter un chien :</h3>
+                <h4>Ajouter un chien :</h4>
                 <div id="add">
                     <div id="dog-line1" class="valign-wrapper row">
                         <div class="input-field col s3">
@@ -177,7 +182,7 @@
                         </button>
                     </div>
                 </div>
-                <h3>Modifier un chien :</h3>
+                <h4>Modifier un chien :</h4>
                 <div id="edit-dog" class="row">
                     <ul class="collection" id="dog-collection"></ul>
                 </div>
@@ -202,6 +207,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="/panel/js/socket.io.min.js"></script>
 
+    <script src="/js/getChrome.js"></script>
     <script src="/panel/js/main-panel.js"></script>
 </body>
 
